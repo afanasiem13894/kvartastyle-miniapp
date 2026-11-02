@@ -43,29 +43,3 @@ document.querySelectorAll('.stylecard').forEach((card, index) => {
     visual.textContent = '';
   }
 });
-
-const styleImages = {
-  'Функциональный': 'functional.jpg',
-  'Минимализм': 'minimalism.jpg',
-  'Скандинавский': 'scandinavian.jpg',
-  'Экостиль': 'eco.jpg',
-  'Классический': 'classic.jpg',
-  'Неоклассический': 'neoclassic.jpg',
-  'Современный': 'modern.jpg'
-};
-
-document.querySelectorAll('.stylecard').forEach(card => {
-  const name = card.querySelector('h3')?.textContent?.trim();
-  const visual = card.querySelector('.stylevisual');
-  const filename = styleImages[name];
-
-  if (!visual || !filename) return;
-
-  visual.style.backgroundImage = `url("${filename}")`;
-  visual.style.backgroundSize = 'cover';
-  visual.style.backgroundPosition = 'center';
-  visual.style.backgroundRepeat = 'no-repeat';
-  visual.style.height = '220px';
-  visual.textContent = '';
-});
-  
