@@ -3,7 +3,7 @@ const pages=document.querySelectorAll('.page');
 function show(p){pages.forEach(e=>e.classList.toggle('active',e.id===p));window.scrollTo({top:0,behavior:'instant'});document.querySelectorAll('.bottom button').forEach(b=>b.style.color=b.dataset.page===p?'#1b4939':'#52625e');}
 document.querySelectorAll('[data-page]').forEach(x =>
   x.addEventListener('click', () => {
-    if (x.dataset.page === 'projects') {
+    if (x.dataset.page === 'portfolio') {
       const url = 'https://t.me/kvartastyle';
       if (tg?.openTelegramLink) {
         tg.openTelegramLink(url);
