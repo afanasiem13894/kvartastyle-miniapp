@@ -12,7 +12,7 @@ input[type="checkbox"]{accent-color:#f07800;}
 .stylevisual{background-color:#333;}
 
 
-/* Информационная страница «Ремонт санузла под ключ» */
+/* Информационная страница «Ремонт ванной комнаты под ключ» */
 .bathroom-stats{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:18px 0 20px}
 .bathroom-stats>div{background:#fff;border:1px solid #e7e2dc;border-radius:15px;padding:16px}
 .bathroom-stats strong{display:block;font-size:clamp(21px,6vw,27px);line-height:1.15;letter-spacing:-.03em;color:#d36a00}
