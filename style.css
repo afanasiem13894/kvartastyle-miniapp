@@ -10,3 +10,15 @@ input:focus,select:focus{outline:2px solid rgba(240,120,0,.23);border-color:#f07
 input[type="checkbox"]{accent-color:#f07800;}
 .bottom button{color:#686868;}
 .stylevisual{background-color:#333;}
+
+
+/* Информационная страница «Ремонт санузла под ключ» */
+.bathroom-stats{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:18px 0 20px}
+.bathroom-stats>div{background:#fff;border:1px solid #e7e2dc;border-radius:15px;padding:16px}
+.bathroom-stats strong{display:block;font-size:clamp(21px,6vw,27px);line-height:1.15;letter-spacing:-.03em;color:#d36a00}
+.bathroom-stats span{display:block;margin-top:6px;font-size:11px;line-height:1.4;color:#666}
+.bathroom-info{margin-top:18px}
+.bathroom-list{margin:13px 0 0;padding-left:21px}
+.bathroom-list li{padding:0 0 10px 3px;font-size:13px;line-height:1.55;color:#454545}
+.bathroom-list li:last-child{padding-bottom:0}
+.bathroom-cta{margin-top:2px}
